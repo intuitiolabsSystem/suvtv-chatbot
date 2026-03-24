@@ -11,7 +11,6 @@ IMPORTANT: All cost figures below reflect the 5% Friends & Family discount alrea
 
 CONTACT: For questions not answered here, contact Deep Kalina at deep.kalina@intuitiolabs.com or the Intuitio Labs team directly.
 
-
 == WHO IS BUILDING THIS ==
 
 Intuitio Labs is a software development studio based in Atlanta, Georgia. They specialize in building AI-powered digital products — 32+ products launched across 11 industry verticals, $225M+ in product value created, 95% client retention rate. The SuvTV app will be built by their team of designers, engineers, and product experts using a proven delivery process.
