@@ -36,7 +36,7 @@ There are four proposals total:
 1. Basic MVP — The fastest path to market. Core streaming + basic ticketing + highlights + optional points system. 8 weeks, $135,152.
 2. Original — Adds social features, gamification, push notifications, and ad insertion on top of the Basic. 14 weeks, $185,775.
 3. Cadillac — The full vision: card-linked loyalty, AI personalization, POS in-venue redemption, geotargeting, premium ticketing, custom sponsor games, and more. 18 weeks, $338,519.
-4. Phased Build — Executes the full Cadillac vision but in three sequential phases, each with its own launch and its own cost. 18 weeks total (8+6+4), same $338,519 end state but with earlier revenue opportunities at each phase.
+4. Phased Build — Executes the full Cadillac vision in three sequential phases, each with its own launch and its own cost. 26 weeks total (8+6+12). Note: the Phased Build totals $356,304 net — slightly more than the Cadillac standalone ($338,519) because hyper-care ($9,360) is charged separately per phase (×3) rather than once.
 
 The recommended strategy: Start with Phase 1 (Basic MVP) to build traction and validate the market, raise capital off that traction, then build through Phase 2 (Original) and Phase 3 (Cadillac) progressively.
 
@@ -309,8 +309,9 @@ The Phased Build delivers the exact same end product as the Cadillac — but in 
 
 This is the recommended approach for Marques because: it gets something into the market in 8 weeks, it generates early traction and data, it gives a fundraising story ("we're live, here's what we learned"), and it allows capital to be raised between phases rather than needing the full amount upfront.
 
-TOTAL TIMELINE: 18 weeks (8 + 6 + 4)
-TOTAL INVESTMENT ACROSS ALL 3 PHASES: ~$338,519 net (same as Cadillac standalone)
+TOTAL TIMELINE: 26 weeks (8 + 6 + 12)
+TOTAL INVESTMENT ACROSS ALL 3 PHASES: $356,304 net
+Note: This is $17,785 more than the Cadillac standalone ($338,519) because hyper-care ($9,360) is included in each of the three phases separately rather than once. The trade-off is earlier launches and the ability to raise capital between phases.
 
 --- PHASE 1: BASIC ---
 Duration: 8 weeks
@@ -322,19 +323,19 @@ Goal: Get into the app stores. Start building an audience. Prove the streaming w
 
 --- PHASE 2: ORIGINAL LAYER ---
 Duration: +6 weeks (added on top of Phase 1)
-Cost before discount: $53,288
-Discount (5%): -$2,665
-NET INVESTMENT: $50,623
-Cumulative spend after Phase 2: $185,775
+Cost before discount: $62,648 (includes $9,360 post-launch hyper-care)
+Discount (5%): -$3,132
+NET INVESTMENT: $59,516
+Cumulative spend after Phase 2: $194,668
 What's added in Phase 2: Everything in the Original that's not in the Basic — social features (emoji reactions, real-time comments, sharing), gamification (daily streaks, badges, referral program), push notifications with deep linking, dynamic ad insertion, advanced analytics, and expanded user profile (favourite teams, watch list, continue watching). SUV Lane Basic ticketing carries forward from Phase 1 unchanged.
 What's still NOT in Phase 2: Card-linked loyalty, AI personalization, POS redemption, premium ticketing with gameday perks, highlights order form, subscriptions, geotargeting, beacons.
 
 --- PHASE 3: CADILLAC LAYER ---
-Duration: +4 weeks (added on top of Phases 1 & 2)
-Cost before discount: $160,783
-Discount (5%): -$8,039
-NET INVESTMENT: $152,744
-Cumulative spend after Phase 3: $338,519
+Duration: +12 weeks (added on top of Phases 1 & 2)
+Cost before discount: $170,143 (includes $9,360 post-launch hyper-care)
+Discount (5%): -$8,507
+NET INVESTMENT: $161,636
+Cumulative spend after Phase 3: $356,304
 What's added in Phase 3: The full loyalty commerce engine — card-linked loyalty with Bronze→Platinum tiers, AI personalization via Claude API, POS in-venue redemption via cashier web screen, premium SUV Lane ticketing with gameday perks, geotargeting and BLE beacon notifications, microtransactions and subscriptions, gamification engine with custom sponsor-branded games, loyalty interoperability API, and full GDPR consent management.
 Goal: The full Cadillac product is live — card-linked rewards, AI-driven personalization, real-world commerce integration.
 
@@ -355,7 +356,7 @@ Weeks 4–5: Sprint 2 — daily streaks, badges, referral program, favourite tea
 Week 6: QA, regression testing across Phase 1 features, app store update
 Weeks 7–8: Post-launch hyper-care
 
-Phase 3 Roadmap (+4 weeks):
+Phase 3 Roadmap (+12 weeks):
 Week 1: Discovery — vendor confirmation (card-linking, BLE), POS cashier screen design, AI prompt design, loyalty tier/gamification UX
 Weeks 1–2: Sprint 1 — card-linked loyalty, tiered rewards, POS redemption, premium ticketing, microtransactions, expanded Django admin
 Week 3: Sprint 2 — Claude API AI personalization, geotargeting, BLE beacons, loyalty interoperability API, first-party data platform, full GDPR consent
@@ -363,7 +364,7 @@ Week 4: QA, security review, performance optimization, app store update
 Weeks 5–6: Post-launch hyper-care + loyalty program go-live support
 
 --- PHASE 3 COST NOTE ---
-The Phase 3 cost slide in the deck shows $135,152 as the net figure — this appears to be a copy/paste error (it matches the Phase 1 figure). The correct Phase 3 net investment is $152,744 ($160,783 gross minus 5% discount of $8,039).
+The Phase 3 cost slide in the deck shows $135,152 as the net figure — this is a copy/paste error (it matches the Phase 1 figure). The correct Phase 3 gross is $170,143 (including $9,360 hyper-care), net investment after 5% discount is $161,636.
 
 
 == FEATURE COMPARISON ACROSS ALL PLANS ==
@@ -444,9 +445,9 @@ Basic MVP | $142,266 | -$7,113 | $135,152 | 8 weeks | $800–$1,200
 Original | $195,553 | -$9,778 | $185,775 | 14 weeks | $800–$1,200
 Cadillac | $356,335 | -$17,817 | $338,519 | 18 weeks | $2,170–$2,880
 Phased Phase 1 | $142,266 | -$7,113 | $135,152 | 8 weeks | $800–$1,200
-Phased Phase 2 | $53,288 | -$2,665 | $50,623 | +6 weeks | $800–$1,200
-Phased Phase 3 | $160,783 | -$8,039 | $152,744 | +4 weeks | $2,170–$2,880
-Phased Total | $356,337 | -$17,817 | $338,519 | 18 weeks | $2,170–$2,880
+Phased Phase 2 | $62,648 | -$3,132 | $59,516 | +6 weeks | $800–$1,200
+Phased Phase 3 | $170,143 | -$8,507 | $161,636 | +12 weeks | $2,170–$2,880
+Phased Total | $375,057 | -$18,752 | $356,304 | 26 weeks | $2,170–$2,880
 
 Post-Launch Maintenance Retainer (all plans): $19,656/month for 3 months
 This covers: continuous platform optimization, proactive system health & security monitoring, reliable support and bug fixes.
@@ -468,7 +469,7 @@ Cadillac/Phased Plan — adds 2 additional risks:
 == COMMON QUESTIONS ==
 
 Q: What is the difference between the Cadillac and the Phased Build?
-A: The end product is identical — the same 54 features, the same $338,519 total investment, the same 18-week total timeline. The difference is how you get there. The Cadillac builds everything in one continuous 18-week sprint and launches all at once. The Phased Build launches in three stages — an 8-week launch (Basic), then a 6-week update (Original features), then a 4-week update (Cadillac features). The Phased approach is recommended because it gets something live faster, gives real market data earlier, and allows Marques to raise capital between phases rather than needing all funds upfront.
+A: The end product is identical — the same 54 features. The difference is timeline, approach, and total cost. The Cadillac builds everything in one continuous 18-week sprint and launches all at once at $338,519 net. The Phased Build launches in three stages — 8 weeks (Basic), +6 weeks (Original features), +12 weeks (Cadillac features) — totalling 26 weeks and $356,304 net. The Phased Build costs $17,785 more because hyper-care ($9,360) is charged at the end of each phase rather than once. The benefit is you get something live in 8 weeks, generate real user data, and can raise capital between phases rather than needing the full amount upfront.
 
 Q: Why does the Basic MVP not include push notifications?
 A: To keep the timeline to 8 weeks and the cost under $135K, push notifications (FCM) were excluded from the Basic. They are included starting with the Original (Phase 2 of the Phased Build).
