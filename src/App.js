@@ -11,6 +11,7 @@ IMPORTANT: All cost figures below reflect the 5% Friends & Family discount alrea
 
 CONTACT: For questions not answered here, contact Deep Kalina at deep.kalina@intuitiolabs.com or the Intuitio Labs team directly.
 
+
 == WHO IS BUILDING THIS ==
 
 Intuitio Labs is a software development studio based in Atlanta, Georgia. They specialize in building AI-powered digital products — 32+ products launched across 11 industry verticals, $225M+ in product value created, 95% client retention rate. The SuvTV app will be built by their team of designers, engineers, and product experts using a proven delivery process.
@@ -48,7 +49,7 @@ Friends & Family Discount (5%): -$7,113
 FINAL NET INVESTMENT: $135,152
 
 Monthly Infrastructure & Third-Party Costs (estimated at 10,000 Monthly Active Users): $800–$1,200/month
-This covers: AWS (EC2, S3, CloudFront, Auto Scaling), Firebase (push notifications & messaging), Heap (analytics), Firebase Crashlytics, Stripe (payments), Transmit.live (ad insertion).
+This covers: AWS (EC2, S3, CloudFront, Auto Scaling), Firebase Crashlytics (crash reporting), Heap (analytics), Stripe (payments), Transmit.live (ad insertion).
 Note: Intuitio Labs makes no margin on infrastructure costs. These are pass-through estimates.
 
 Post-Launch Maintenance Retainer (optional): $19,656/month for 3 months.
@@ -192,7 +193,8 @@ Push Notifications (2 new features):
 - Card-linked loyalty program
 - AI personalization engine
 - POS integration
-- Premium SUV Lane ticketing (no gameday perks)
+- Premium SUV Lane ticketing with gameday perks (Basic ticketing carries forward from the Basic MVP)
+- Highlights Order Form (not in Original — present in Basic and reintroduced as part of Cadillac)
 - Geotargeting or BLE beacons
 - Microtransactions or subscriptions
 - Gamification engine with custom sponsor-branded games
@@ -324,8 +326,8 @@ Cost before discount: $53,288
 Discount (5%): -$2,665
 NET INVESTMENT: $50,623
 Cumulative spend after Phase 2: $185,775
-What's added in Phase 2: Everything in the Original that's not in the Basic — social features (emoji reactions, real-time comments, sharing), gamification (daily streaks, badges, referral program), push notifications with deep linking, dynamic ad insertion, advanced analytics, and expanded user profile (favourite teams, watch list, continue watching).
-What's still NOT in Phase 2: Card-linked loyalty, AI personalization, POS redemption, premium ticketing with perks, subscriptions, geotargeting, beacons.
+What's added in Phase 2: Everything in the Original that's not in the Basic — social features (emoji reactions, real-time comments, sharing), gamification (daily streaks, badges, referral program), push notifications with deep linking, dynamic ad insertion, advanced analytics, and expanded user profile (favourite teams, watch list, continue watching). SUV Lane Basic ticketing carries forward from Phase 1 unchanged.
+What's still NOT in Phase 2: Card-linked loyalty, AI personalization, POS redemption, premium ticketing with gameday perks, highlights order form, subscriptions, geotargeting, beacons.
 
 --- PHASE 3: CADILLAC LAYER ---
 Duration: +4 weeks (added on top of Phases 1 & 2)
@@ -385,7 +387,7 @@ Video Detail Page | ✓ | ✓ | ✓
 Live + VOD Streaming | ✓ | ✓ | ✓
 Partner Platform Broadcast Links | ✗ | ✗ | ✓
 Video Player + ABR | ✓ | ✓ | ✓
-Dynamic Ad Insertion | ✗ | ✓ | ✓
+Dynamic Ad Insertion | ✓ | ✓ | ✓
 Heap Analytics | ✓ | ✓ | ✓
 Robust First-Party Data | ✗ | ✗ | ✓
 Live Emoji Reactions | ✗ | ✓ | ✓
@@ -401,7 +403,7 @@ Tiered Reward Levels (Bronze→Platinum) | ✗ | ✗ | ✓
 FCM Push Notifications | ✗ | ✓ | ✓
 Deep Linking from Notifications | ✗ | ✓ | ✓
 Geotargeting + BLE Beacons | ✗ | ✗ | ✓
-SUV Lane Ticketing — Basic | ✓ | ✗ | ✗
+SUV Lane Ticketing — Basic | ✓ | ✓ | ✗
 SUV Lane Ticketing — Premium (with perks) | ✗ | ✗ | ✓
 Highlights Order Form | ✓ | ✗ | ✗
 Microtransactions & Subscriptions | ✗ | ✗ | ✓
@@ -412,7 +414,7 @@ Django Admin Interface | ✓ | ✓ | ✓
 App Store Release Support | ✓ | ✓ | ✓
 Crashlytics | ✓ | ✓ | ✓
 
-Note on SUV Lane Ticketing in Original: The Original proposal does not include either version of SUV Lane ticketing or the highlights order form — these are present in Basic and reintroduced in Cadillac as the premium version.
+Note on SUV Lane Ticketing: Basic SUV Lane ticketing (QR code entry, visual verification) is included in both the Basic MVP and the Original. The Cadillac upgrades this to Premium SUV Lane ticketing with a dedicated entry lane and gameday perks. The highlights order form is in Basic and Cadillac only — it is not in the Original.
 
 
 == TECHNOLOGY STACK ==
